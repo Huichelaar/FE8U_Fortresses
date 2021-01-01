@@ -1,0 +1,27 @@
+// Structs & lone tables.
+
+// Materials
+ALIGN 4
+MaterialStruct:
+#include "Material/Material.event"
+
+// Forts
+ALIGN 4
+FortStruct:
+#include "Fort/Fort.event"
+
+// Initial Fort & Material settings
+ALIGN 4
+InitFortMatSettings:
+#incbin "Save/InitFortMatSettings.dmp"
+
+// Extra
+ALIGN 4
+UnitAbility:
+#incbin "Extra/UnitAbility.dmp"
+ALIGN 4
+AbilityBoosts:
+#incbin "Extra/AbilityBoosts.dmp"
+ALIGN 4
+ClassTierTable:
+#incbin "Extra/ClassTierTable.dmp"

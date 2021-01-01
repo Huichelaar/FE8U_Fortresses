@@ -1,0 +1,58 @@
+#ifndef Material
+  #define Material
+  #define Material(MatID, Name) "POIN MaterialsGfx+(0x80*MatID); SHORT Name; SHORT 0"
+
+  #define MatCoal 0x0
+  #define MatCopper 0x1
+  #define MatLime 0x2
+  #define MatIron 0x3
+  #define MatWood 0x4
+  #define MatMagicWood 0x5
+  #define MatSpice 0x6
+  #define MatGunpowder 0x7
+  #define MatHemp 0x8
+  #define MatBelladonna 0x9
+  #define MatLaurel 0xA
+  #define MatTopaz 0xB
+  #define MatRuby 0xC
+  #define MatEmerald 0xD
+  #define MatDiamond 0xE
+  #define MatMilk 0xF
+  #define MatCabbage 0x10
+  #define MatGrape 0x11
+  #define MatFish 0x12
+  #define MatWheat 0x13
+  #define MatMeat 0x14
+  #define MatDown 0x15
+  #define MatHide 0x16
+  #define MatWool 0x17
+  #define MatOil 0x18
+  #define MatRune 0x19
+#endif
+
+Material(MatCoal, Mat0Name)
+Material(MatCopper, Mat1Name)
+Material(MatLime, Mat2Name)
+Material(MatIron, Mat3Name)
+Material(MatWood, Mat4Name)
+Material(MatMagicWood, Mat5Name)
+Material(MatSpice, Mat6Name)
+Material(MatGunpowder, Mat7Name)
+Material(MatHemp, Mat8Name)
+Material(MatBelladonna, Mat9Name)
+Material(MatLaurel, MatAName)
+Material(MatTopaz, MatBName)
+Material(MatRuby, MatCName)
+Material(MatEmerald, MatDName)
+Material(MatDiamond, MatEName)
+Material(MatMilk, MatFName)
+Material(MatCabbage, Mat10Name)
+Material(MatGrape, Mat11Name)
+Material(MatFish, Mat12Name)
+Material(MatWheat, Mat13Name)
+Material(MatMeat, Mat14Name)
+Material(MatDown, Mat15Name)
+Material(MatHide, Mat16Name)
+Material(MatWool, Mat17Name)
+Material(MatOil, Mat18Name)
+Material(MatRune, Mat19Name)

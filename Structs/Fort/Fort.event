@@ -1,0 +1,58 @@
+#ifndef FortEntry
+
+  #define FortEntry
+  
+  #define FortEntry(Mat0, Mat1, Mat2, Mat3, Name, FortGatherHelp, Lv2Mat0, Lv2Count0, Lv2Mat1, Lv2Count1, Lv3Mat0, Lv3Count0, Lv3Mat1, Lv3Count1, Lv4Mat0, Lv4Count0, Lv4Mat1, Lv4Count1, ProduceStruct) "BYTE Mat0; BYTE Mat1; BYTE Mat2; BYTE Mat3; SHORT Name; SHORT FortGatherHelp; BYTE Lv2Mat0; BYTE Lv2Count0; BYTE Lv2Mat1; BYTE Lv2Count1; BYTE Lv3Mat0; BYTE Lv3Count0; BYTE Lv3Mat1; BYTE Lv3Count1; BYTE Lv4Mat0; BYTE Lv4Count0; BYTE Lv4Mat1; BYTE Lv4Count1; POIN ProduceStruct; WORD 0 0"
+  
+  #define Produce(Tier0Mat0Count, Tier0Mat1Count, Tier0Mat2Count, Tier0Mat3Count, Tier1Mat0Count, Tier1Mat1Count, Tier1Mat2Count, Tier1Mat3Count, Tier2Mat0Count, Tier2Mat1Count, Tier2Mat2Count, Tier2Mat3Count, Tier3Mat0Count, Tier3Mat1Count, Tier3Mat2Count, Tier3Mat3Count, Tier4Mat0Count, Tier4Mat1Count, Tier4Mat2Count, Tier4Mat3Count, Tier5Mat0Count, Tier5Mat1Count, Tier5Mat2Count, Tier5Mat3Count, Tier6Mat0Count, Tier6Mat1Count, Tier6Mat2Count, Tier6Mat3Count, Tier7Mat0Count, Tier7Mat1Count, Tier7Mat2Count, Tier7Mat3Count, Tier8Mat0Count, Tier8Mat1Count, Tier8Mat2Count, Tier8Mat3Count, Tier9Mat0Count, Tier9Mat1Count, Tier9Mat2Count, Tier9Mat3Count, TierAMat0Count, TierAMat1Count, TierAMat2Count, TierAMat3Count, TierBMat0Count, TierBMat1Count, TierBMat2Count, TierBMat3Count, TierCMat0Count, TierCMat1Count, TierCMat2Count, TierCMat3Count, TierDMat0Count, TierDMat1Count, TierDMat2Count, TierDMat3Count, TierEMat0Count, TierEMat1Count, TierEMat2Count, TierEMat3Count, TierFMat0Count, TierFMat1Count, TierFMat2Count, TierFMat3Count) "BYTE Tier0Mat0Count; BYTE Tier0Mat1Count; BYTE Tier0Mat2Count; BYTE Tier0Mat3Count; BYTE Tier1Mat0Count; BYTE Tier1Mat1Count; BYTE Tier1Mat2Count; BYTE Tier1Mat3Count; BYTE Tier2Mat0Count; BYTE Tier2Mat1Count; BYTE Tier2Mat2Count; BYTE Tier2Mat3Count; BYTE Tier3Mat0Count; BYTE Tier3Mat1Count; BYTE Tier3Mat2Count; BYTE Tier3Mat3Count; BYTE Tier4Mat0Count; BYTE Tier4Mat1Count; BYTE Tier4Mat2Count; BYTE Tier4Mat3Count; BYTE Tier5Mat0Count; BYTE Tier5Mat1Count; BYTE Tier5Mat2Count; BYTE Tier5Mat3Count; BYTE Tier6Mat0Count; BYTE Tier6Mat1Count; BYTE Tier6Mat2Count; BYTE Tier6Mat3Count; BYTE Tier7Mat0Count; BYTE Tier7Mat1Count; BYTE Tier7Mat2Count; BYTE Tier7Mat3Count; BYTE Tier8Mat0Count; BYTE Tier8Mat1Count; BYTE Tier8Mat2Count; BYTE Tier8Mat3Count; BYTE Tier9Mat0Count; BYTE Tier9Mat1Count; BYTE Tier9Mat2Count; BYTE Tier9Mat3Count; BYTE TierAMat0Count; BYTE TierAMat1Count; BYTE TierAMat2Count; BYTE TierAMat3Count; BYTE TierBMat0Count; BYTE TierBMat1Count; BYTE TierBMat2Count; BYTE TierBMat3Count; BYTE TierCMat0Count; BYTE TierCMat1Count; BYTE TierCMat2Count; BYTE TierCMat3Count; BYTE TierDMat0Count; BYTE TierDMat1Count; BYTE TierDMat2Count; BYTE TierDMat3Count; BYTE TierEMat0Count; BYTE TierEMat1Count; BYTE TierEMat2Count; BYTE TierEMat3Count; BYTE TierFMat0Count; BYTE TierFMat1Count; BYTE TierFMat2Count; BYTE TierFMat3Count;"
+  
+#endif
+
+FortEntry(MatBelladonna, MatDiamond, MatGunpowder, MatFish, Fort0Name, Fort0GatherHelp, MatCopper, 0x1, MatGunpowder, 0x2, MatRune, 0x3, MatRune, 0x4, MatIron, 0x32, MatMilk, 0x19, ProduceStruct)
+
+FortEntry(MatLaurel, MatFish, MatMeat, MatRune, Fort1Name, Fort1GatherHelp, MatLaurel, 0x7, MatGrape, 0x8, MatLaurel, 0x9, MatWood, 0xA, MatDiamond, 0xB, MatGrape, 0xC, ProduceStruct)
+
+FortEntry(MatBelladonna, MatFish, MatMilk, MatMagicWood, Fort2Name, Fort2GatherHelp, MatMagicWood, 0xD, MatDown, 0xE, MatGunpowder, 0xF, MatCoal, 0x10, MatBelladonna, 0x11, MatIron, 0x12, ProduceStruct2)
+
+FortEntry(MatFish, MatWool, MatRuby, MatCopper, Fort3Name, Fort0GatherHelp, MatGunpowder, 0x13, MatFish, 0x14, MatRune, 0x15, MatHemp, 0x16, MatIron, 0x17, MatCopper, 0x18, ProduceStruct)
+
+FortEntry(MatMilk, MatDown, MatSpice, MatIron, Fort4Name, Fort0GatherHelp, MatCopper, 0x19, MatMeat, 0x1A, MatWood, 0x1B, MatCopper, 0x1C, MatGunpowder, 0x1D, MatOil, 0x1E, ProduceStruct)
+
+FortEntry(MatDiamond, MatMilk, MatSpice, MatLaurel, Fort5Name, Fort0GatherHelp, MatOil, 0x1F, MatDown, 0x20, MatDiamond, 0x21, MatBelladonna, 0x22, MatLime, 0x23, MatRune, 0x24, ProduceStruct)
+
+FortEntry(MatLaurel, MatCoal, MatWheat, MatTopaz, Fort6Name, Fort0GatherHelp, MatSpice, 0x25, MatOil, 0x26, MatRune, 0x27, MatEmerald, 0x28, MatWool, 0x29, MatHemp, 0x2A, ProduceStruct)
+
+FortEntry(MatLaurel, MatMagicWood, MatWool, MatRune, Fort7Name, Fort0GatherHelp, MatTopaz, 0x2B, MatBelladonna, 0x2C, MatDown, 0x2D, MatWood, 0x2E, MatCabbage, 0x2F, MatCabbage, 0x30, ProduceStruct)
+
+FortEntry(MatLime, MatRuby, MatMagicWood, MatHide, Fort8Name, Fort0GatherHelp, MatFish, 0x31, MatMeat, 0x32, MatIron, 0x33, MatCabbage, 0x34, MatMeat, 0x35, MatMeat, 0x36, ProduceStruct)
+
+FortEntry(MatMagicWood, MatGrape, MatCabbage, MatDown, Fort9Name, Fort0GatherHelp, MatHide, 0x37, MatOil, 0x38, MatIron, 0x39, MatWheat, 0x3A, MatWool, 0x3B, MatFish, 0x3C, ProduceStruct)
+
+FortEntry(MatMilk, MatWheat, MatFish, MatOil, FortAName, Fort0GatherHelp, MatMeat, 0x3D, MatLime, 0x3E, MatMilk, 0x3F, MatRune, 0x40, MatRune, 0x41, MatWheat, 0x42, ProduceStruct)
+
+FortEntry(MatWood, MatEmerald, MatIron, MatSpice, FortBName, Fort0GatherHelp, MatRuby, 0x43, MatGrape, 0x44, MatMeat, 0x45, MatSpice, 0x46, MatGrape, 0x47, MatFish, 0x48, ProduceStruct)
+
+FortEntry(MatSpice, MatCabbage, MatEmerald, MatOil, FortCName, Fort0GatherHelp, MatCopper, 0x49, MatWheat, 0x4A, MatHide, 0x4B, MatWool, 0x4C, MatGrape, 0x4D, MatSpice, 0x4E, ProduceStruct)
+
+FortEntry(MatSpice, MatTopaz, MatMeat, MatGunpowder, FortDName, Fort0GatherHelp, MatRune, 0x4F, MatWheat, 0x50, MatMeat, 0x51, MatCoal, 0x52, MatLaurel, 0x53, MatMeat, 0x54, ProduceStruct)
+
+FortEntry(MatDiamond, MatHemp, MatMilk, MatBelladonna, FortEName, Fort0GatherHelp, MatIron, 0x55, MatIron, 0x56, MatCabbage, 0x57, MatWool, 0x58, MatBelladonna, 0x59, MatRune, 0x5A, ProduceStruct)
+
+FortEntry(MatMeat, MatIron, MatWool, MatCoal, FortFName, Fort0GatherHelp, MatMagicWood, 0x5B, MatFish, 0x5C, MatHide, 0x5D, MatRune, 0x5E, MatLaurel, 0x5F, MatMeat, 0x60, ProduceStruct)
+
+FortEntry(MatCoal, MatHemp, MatRune, MatMagicWood, Fort10Name, Fort0GatherHelp, MatMilk, 0x61, MatWood, 0x62, MatDiamond, 0x63, MatCabbage, 0x63, MatMagicWood, 0x63, MatMeat, 0x63, ProduceStruct)
+
+FortEntry(MatRune, MatOil, MatWheat, MatIron, Fort11Name, Fort0GatherHelp, MatSpice, 0x63, MatSpice, 0x62, MatGrape, 0x1, MatWood, 0x2, MatSpice, 0x3, MatEmerald, 0x4, ProduceStruct)
+
+FortEntry(MatLime, MatRuby, MatMagicWood, MatMilk, Fort12Name, Fort0GatherHelp, MatWheat, 0x5, MatCabbage, 0x6, MatDown, 0x7, MatIron, 0x8, MatOil, 0x9, MatRune, 0xA, ProduceStruct)
+
+FortEntry(MatWheat, MatOil, MatLime, MatHemp, Fort13Name, Fort0GatherHelp, MatCoal, 0xB, MatCopper, 0xC, MatHide, 0xD, MatCoal, 0xE, MatLaurel, 0xF, MatFish, 0x10, ProduceStruct)
+
+FortEntry(MatDown, MatHemp, MatEmerald, MatCopper, Fort14Name, Fort0GatherHelp, MatMeat, 0x11, MatHemp, 0x12, MatIron, 0x13, MatMilk, 0x14, MatHide, 0x15, MatDown, 0x16, ProduceStruct)
+
+
+ProduceStruct:
+Produce(0x1, 0x1, 0x1, 0x0, 0x1, 0x1, 0x1, 0x1, 0x2, 0x1, 0x1, 0x1, 0x3, 0x2, 0x1, 0x1, 0x4, 0x3, 0x1, 0x1, 0x5, 0x3, 0x2, 0x1, 0x6, 0x3, 0x3, 0x1, 0x6, 0x4, 0x3, 0x1, 0x7, 0x4, 0x4, 0x1, 0x7, 0x5, 0x4, 0x1, 0x8, 0x5, 0x5, 0x2, 0x8, 0x6, 0x5, 0x2, 0x9, 0x7, 0x6, 0x2, 0x9, 0x7, 0x7, 0x3, 0xA, 0x8, 0x7, 0x3, 0xA, 0x8, 0x8, 0x4)
+
+ProduceStruct2:
+Produce(0x2, 0x1, 0x1, 0x0, 0x1, 0x1, 0x1, 0x1, 0x2, 0x1, 0x1, 0x1, 0x3, 0x2, 0x1, 0x1, 0x4, 0x3, 0x1, 0x1, 0x5, 0x3, 0x2, 0x1, 0x6, 0x3, 0x3, 0x1, 0x6, 0x4, 0x3, 0x1, 0x7, 0x4, 0x4, 0x1, 0x7, 0x5, 0x4, 0x1, 0x8, 0x5, 0x5, 0x2, 0x8, 0x6, 0x5, 0x2, 0x9, 0x7, 0x6, 0x2, 0x9, 0x7, 0x7, 0x3, 0xA, 0x8, 0x7, 0x3, 0xA, 0x8, 0x8, 0x4)

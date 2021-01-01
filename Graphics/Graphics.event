@@ -1,0 +1,45 @@
+// Materials
+ALIGN 4
+MaterialsGfx:
+//#incext Png2Dmp "Materials.png"
+#incbin "Materials.dmp"
+
+
+// Menutitles, "Materials" & "Forts"
+Menutitles:
+//#incext Png2Dmp "Menutitles.png" --lz77
+#incbin "Menutitles.dmp"
+
+
+// Tree
+ALIGN 4
+TreePalette:
+//#incext Png2Dmp "Tree.png" --palette-only
+#incbin "Tree_pal.dmp"
+ALIGN 4
+Tree:
+//#incext Png2Dmp "Tree.png" --lz77
+#incbin "Tree.dmp"
+
+// Pirate palette, the vanilla palette is compressed (I think?) So we just insert it here
+ALIGN 4
+PiratePalette:
+#incbin "Pirate_pal.dmp"
+
+// Plateau OAM data
+ALIGN 4
+PlateauOAM:
+#incbin "PlateauOAM.dmp"
+
+// Tree OAM data
+ALIGN 4
+TreeOAM:
+#incbin "TreeOAM.dmp"
+
+// Lumberjack OAM data
+ALIGN 4
+LumberjackOAM:
+#incbin "LumberjackOAM.dmp"
+ALIGN 4
+LumberjackFrame:
+#incbin "LumberjackFrame.dmp"

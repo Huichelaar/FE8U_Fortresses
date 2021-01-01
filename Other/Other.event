@@ -1,0 +1,6 @@
+// Stuff I couldn't manage to categorise better.
+
+// Hook-overwritten code and a call to IncreaseFortProduce
+ALIGN 4
+ChapterEndExtra:
+#include "ChapterEndExtra.lyn.event"
