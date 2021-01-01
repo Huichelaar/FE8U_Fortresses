@@ -1,6 +1,6 @@
 INSTALL
-  Install by using Event Assembler to apply "Fortresses.event" to an FE8U ROM. There's a few quirks to 
-  keep in mind:
+  Install by using Event Assembler to apply "Fortresses.event" to an FE8U ROM, or include 
+  "Fortresses.event" in your buildfile. There's a few quirks to keep in mind:
   
     - If you're already using a text buildfile, remove the #include "Text/Install Text Data.event" from 
     "Fortresses.event" and instead #include "Text/FortMaterial/FortMaterial.event" in your text 
