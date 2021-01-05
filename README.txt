@@ -198,6 +198,23 @@ CONCLUDING
 
 
 CREDITS
+  - EA credits:
+    -Nintenlord for making this.
+    -Kate/Klo/whatever for writing FE6 CHAR support
+    -Everyone who submitted event codes for this, especially
+     Fire Blazer and flyingace24.
+    -markyjoe1990 for FE7 event template.
+    -Mariobro3828 for FE7 world map definition values and
+     for making the EAstdlib Macro and Command List.txt.
+    -Arch for making code I can use to debug this app, 
+     for his tutorials and his FE6 template.
+    -Ryrumeli for telling me the ASM routine that handles
+     the events in FE8.
+    -Omni for reporting errors with FE6 disassembly script.
+    -Camtech075/Cam/Kam for making FE8 template.
+    -Everyone who uses this and/or reports bugs and/or gives
+     feedback.
+  - Text Processor made by circleseverywhere.
   - The tree being chopped down in the fort menu was made by Obsidian Daddy.
   - The other assets displayed in that animation (pirate, plateau) are in vanilla FE8, so credit goes 
   to IS for that. I Frankenstein'd the "MATERIALS" and "FORTS" displayed in the fortmenu from vanilla 
