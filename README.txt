@@ -214,7 +214,7 @@ CREDITS
     -Camtech075/Cam/Kam for making FE8 template.
     -Everyone who uses this and/or reports bugs and/or gives
      feedback.
-  - Text Processor made by circleseverywhere.
+  - Text Processor made by circleseverywhere, StanH_.
   - The tree being chopped down in the fort menu was made by Obsidian Daddy.
   - The other assets displayed in that animation (pirate, plateau) are in vanilla FE8, so credit goes 
   to IS for that. I Frankenstein'd the "MATERIALS" and "FORTS" displayed in the fortmenu from vanilla 
