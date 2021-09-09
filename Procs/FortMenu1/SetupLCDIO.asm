@@ -106,12 +106,15 @@ strb  r1, [r2, #0xA]
 
 
 @ Set BG0, BG1, BG2 to use tiles1, BG3 to use tiles2
+mov   r1, #0x0
 mov   r0, #0x0
 ldr   r5, =SetBackgroundTileDataOffset
 bl    GOTO_R5
+mov   r1, #0x0
 mov   r0, #0x1
 ldr   r5, =SetBackgroundTileDataOffset
 bl    GOTO_R5
+mov   r1, #0x0
 mov   r0, #0x2
 ldr   r5, =SetBackgroundTileDataOffset
 bl    GOTO_R5
@@ -144,7 +147,7 @@ bl    GOTO_R5
 
 @ Set BG0, BG1, BG2, BG3 priorities to 0, 2, 0, 3
 ldr   r2, =gpDISPCNTbuffer
-@ Set BG0 priority to 1
+@ Set BG0 priority to 0
 ldrb  r3, [r2, #0xC]                        @ BG0CNT
 mov   r1, #0x3
 mvn   r1, r1

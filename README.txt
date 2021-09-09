@@ -170,6 +170,11 @@ IMPLEMENTATION
     unit bit (RAM Unit struct +0xE bit +0x0), but this didn't seem to affect story events, so I decided 
     to use the dead bit instead. When you remove a fortmaster from a fort, the dead bit is unset, 
     bringing the unit back to your party.
+    
+  CHAPTER END
+    You need to put an "ASMC ChapterEndExtra+0x1" in the end event of your chapter if you want produce
+    of player-controlled forts to increase, and if you want the enemy fortmaster of the fort
+    corresponding to the current chapter to be cleared.
 
 
 MENU

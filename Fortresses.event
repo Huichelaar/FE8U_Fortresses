@@ -50,10 +50,6 @@
     // Hook into SaveNewGame to initialize Fort & Material settings on New Game
     ORG 0xA4EB4
     callHack_r0(InitFortsMats)
-
-    // Increase Materials in forts at chapter end
-    ORG 0x83284
-    jumpToHack(ChapterEndExtra)
     
     // Repoint the world map proc
     ORG 0xC194
@@ -237,5 +233,4 @@
   #ifdef Debug
     #include "Debug/Debug.event"            // Turn Chapter "Guide" option into win button.
   #endif
-  
 }
